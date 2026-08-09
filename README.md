@@ -91,8 +91,4 @@ The model uses the public Olist Brazilian E-Commerce dataset:
 
 The analysis highlights several priorities: improve delivery performance in high-delay regions, reduce the freight burden on high-ratio orders, recalibrate delivery estimates, strengthen Health Beauty category growth, and prepare logistics capacity for peak events such as Black Friday.
 
-## Project Team
-
-Rawda Hesham · Shaza Yasser · Ismail Mahmoud · Hamza Ahmed · Omar Zakria · Wadie Tofiek
-
-**Tool:** Power BI Desktop
+**Tool:** Power BI Desktop,PowerQuery,DAX,Antigravity
