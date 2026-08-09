@@ -7,8 +7,6 @@
 - **Total measures:** 25 DAX measures · 7 calculated columns
 - **Records:** 99,441 orders · 3,095 sellers · 96,096 unique customers
 
-## Project Team
-Rawda Hesham · Shaza Yasser · Ismail Mahmoud · Hamza Ahmed · Omar Zakria · Wadie Tofiek
 
 ## Table of Contents
 1. [Project Overview & Business Context](#1-project-overview--business-context)
