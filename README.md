@@ -87,6 +87,14 @@ The model uses the public Olist Brazilian E-Commerce dataset:
 - [`docs/DAX-Reference.md`](docs/DAX-Reference.md) — documented DAX measures, formulas, outputs, and usage.
 - [`screenshots/`](screenshots/) — dashboard page and data-model screenshots.
 
+## Email Automation
+
+An automated Gmail reporter (`email-automation/power_bi_email_reporter.py`) connects live to this dashboard while it's open in Power BI Desktop, extracts the core KPIs and top product categories via DAX, and emails a styled executive summary plus a CSV export — fully free, no Power BI Pro required.
+
+![Executive email report sample](email-automation/Screenshot%202026-08-17%20071816.png)
+
+See [`docs/email_automation.md`](docs/email_automation.md) for setup, usage, and scheduling instructions.
+
 ## Recommendations
 
 The analysis highlights several priorities: improve delivery performance in high-delay regions, reduce the freight burden on high-ratio orders, recalibrate delivery estimates, strengthen Health Beauty category growth, and prepare logistics capacity for peak events such as Black Friday.

@@ -2,6 +2,8 @@
 
 This module extracts live KPIs directly from a locally running **Power BI Desktop** report and emails a styled executive summary via **Gmail SMTP** — no Power BI Pro, Fabric, or Azure subscription required.
 
+![Sample executive email report](../email-automation/Screenshot%202026-08-17%20071816.png)
+
 ## How It Works
 
 1. **Detects the local Power BI session.** `LocalPowerBIExtractor` scans running processes for `PBIDesktop.exe` and its background `msmdsrv.exe` (the embedded Analysis Services / SSAS tabular engine) to find the local port Power BI Desktop is listening on, and locates the Microsoft ADOMD.NET client DLL needed to query it.
